@@ -8,5 +8,6 @@ android {
 }
 
 dependencies {
-    api(libs.mmkv)
+    api("com.tencent:mmkv:1.3.0")
+//    api(libs.mmkv)
 }
