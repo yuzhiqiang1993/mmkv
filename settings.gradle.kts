@@ -11,11 +11,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
-    versionCatalogs {
-        create("libs") {
-            from("com.xeonyu:version-catalog:0.1.1")
-        }
-    }
+
 }
 
 rootProject.name = "mmkv"

@@ -8,6 +8,6 @@ android {
 }
 
 dependencies {
-    api("com.tencent:mmkv:1.3.0")
-//    api(libs.mmkv)
+    implementation(platform(libs.kotlin.bom.stable))
+    api(libs.mmkv)
 }
